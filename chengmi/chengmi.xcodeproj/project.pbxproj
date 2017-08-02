@@ -15,6 +15,13 @@
 		132173FA1F31F53A0016EE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132173F81F31F53A0016EE97 /* LaunchScreen.storyboard */; };
 		132174051F31F53A0016EE97 /* chengmiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132174041F31F53A0016EE97 /* chengmiTests.m */; };
 		132174101F31F53A0016EE97 /* chengmiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321740F1F31F53A0016EE97 /* chengmiUITests.m */; };
+		132174211F31FCAC0016EE97 /* detailJson in Resources */ = {isa = PBXBuildFile; fileRef = 132174201F31FCAC0016EE97 /* detailJson */; };
+		132174231F31FD000016EE97 /* foundData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 132174221F31FD000016EE97 /* foundData.plist */; };
+		132174251F31FDF30016EE97 /* blurData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 132174241F31FDF30016EE97 /* blurData.plist */; };
+		132174271F31FE740016EE97 /* MessageData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 132174261F31FE740016EE97 /* MessageData.plist */; };
+		1321742D1F31FEC20016EE97 /* CellDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1321742C1F31FEC20016EE97 /* CellDatas.plist */; };
+		1321742F1F31FF2E0016EE97 /* infoDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1321742E1F31FF2E0016EE97 /* infoDatas.plist */; };
+		132174311F31FF990016EE97 /* HomeDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 132174301F31FF990016EE97 /* HomeDatas.plist */; };
 		BB31C76ECA0441AF0FFACBA4 /* libPods-chengmi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +60,13 @@
 		1321740F1F31F53A0016EE97 /* chengmiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chengmiUITests.m; sourceTree = "<group>"; };
 		132174111F31F53A0016EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1321741D1F31F8360016EE97 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		132174201F31FCAC0016EE97 /* detailJson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = detailJson; path = Classes/CustomPlist/detailJson; sourceTree = "<group>"; };
+		132174221F31FD000016EE97 /* foundData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = foundData.plist; path = Classes/CustomPlist/foundData.plist; sourceTree = "<group>"; };
+		132174241F31FDF30016EE97 /* blurData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = blurData.plist; path = Classes/CustomPlist/blurData.plist; sourceTree = "<group>"; };
+		132174261F31FE740016EE97 /* MessageData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MessageData.plist; path = Classes/CustomPlist/MessageData.plist; sourceTree = "<group>"; };
+		1321742C1F31FEC20016EE97 /* CellDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CellDatas.plist; path = Classes/CustomPlist/CellDatas.plist; sourceTree = "<group>"; };
+		1321742E1F31FF2E0016EE97 /* infoDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = infoDatas.plist; path = Classes/CustomPlist/infoDatas.plist; sourceTree = "<group>"; };
+		132174301F31FF990016EE97 /* HomeDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = HomeDatas.plist; path = Classes/CustomPlist/HomeDatas.plist; sourceTree = "<group>"; };
 		19A4B433573EAD241475E14F /* Pods-chengmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.debug.xcconfig"; sourceTree = "<group>"; };
 		809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chengmi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A0D8097842A258FA427F6A /* Pods-chengmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.release.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +131,7 @@
 		132173E91F31F53A0016EE97 /* chengmi */ = {
 			isa = PBXGroup;
 			children = (
+				1321741E1F31FC680016EE97 /* Classes */,
 				132173ED1F31F53A0016EE97 /* AppDelegate.h */,
 				132173EE1F31F53A0016EE97 /* AppDelegate.m */,
 				132173F01F31F53A0016EE97 /* ViewController.h */,
@@ -155,6 +170,28 @@
 				132174111F31F53A0016EE97 /* Info.plist */,
 			);
 			path = chengmiUITests;
+			sourceTree = "<group>";
+		};
+		1321741E1F31FC680016EE97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1321741F1F31FC710016EE97 /* CustomPlist */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1321741F1F31FC710016EE97 /* CustomPlist */ = {
+			isa = PBXGroup;
+			children = (
+				132174201F31FCAC0016EE97 /* detailJson */,
+				132174221F31FD000016EE97 /* foundData.plist */,
+				132174241F31FDF30016EE97 /* blurData.plist */,
+				132174261F31FE740016EE97 /* MessageData.plist */,
+				1321742C1F31FEC20016EE97 /* CellDatas.plist */,
+				1321742E1F31FF2E0016EE97 /* infoDatas.plist */,
+				132174301F31FF990016EE97 /* HomeDatas.plist */,
+			);
+			name = CustomPlist;
 			sourceTree = "<group>";
 		};
 		98FBD2A0F810D14E0F4071E7 /* Pods */ = {
@@ -277,7 +314,14 @@
 			files = (
 				132173FA1F31F53A0016EE97 /* LaunchScreen.storyboard in Resources */,
 				132173F71F31F53A0016EE97 /* Assets.xcassets in Resources */,
+				1321742F1F31FF2E0016EE97 /* infoDatas.plist in Resources */,
+				132174311F31FF990016EE97 /* HomeDatas.plist in Resources */,
+				132174271F31FE740016EE97 /* MessageData.plist in Resources */,
 				132173F51F31F53A0016EE97 /* Main.storyboard in Resources */,
+				132174251F31FDF30016EE97 /* blurData.plist in Resources */,
+				132174211F31FCAC0016EE97 /* detailJson in Resources */,
+				1321742D1F31FEC20016EE97 /* CellDatas.plist in Resources */,
+				132174231F31FD000016EE97 /* foundData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
