@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SDWebImageManager.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    //修改控制器的tatusBar样式,需要注意在info.plist里面配置一下
+    //隐藏顶部状态栏
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
 }
 
@@ -45,6 +49,14 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    //清除内存缓存
+    [[SDWebImageManager sharedManager].imageCache clearMemory];
+    //取消所有下载
+    [[SDWebImageManager sharedManager] cancelAll];
 }
 
 

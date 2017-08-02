@@ -132,8 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				1321741E1F31FC680016EE97 /* Classes */,
-				132173ED1F31F53A0016EE97 /* AppDelegate.h */,
-				132173EE1F31F53A0016EE97 /* AppDelegate.m */,
 				132173F01F31F53A0016EE97 /* ViewController.h */,
 				132173F11F31F53A0016EE97 /* ViewController.m */,
 				132173F31F31F53A0016EE97 /* Main.storyboard */,
@@ -148,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				132173FB1F31F53A0016EE97 /* Info.plist */,
-				132173EB1F31F53A0016EE97 /* main.m */,
 				1321741D1F31F8360016EE97 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
@@ -175,6 +172,7 @@
 		1321741E1F31FC680016EE97 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				132174321F32006C0016EE97 /* other */,
 				1321741F1F31FC710016EE97 /* CustomPlist */,
 			);
 			name = Classes;
@@ -192,6 +190,16 @@
 				132174301F31FF990016EE97 /* HomeDatas.plist */,
 			);
 			name = CustomPlist;
+			sourceTree = "<group>";
+		};
+		132174321F32006C0016EE97 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				132173ED1F31F53A0016EE97 /* AppDelegate.h */,
+				132173EE1F31F53A0016EE97 /* AppDelegate.m */,
+				132173EB1F31F53A0016EE97 /* main.m */,
+			);
+			name = other;
 			sourceTree = "<group>";
 		};
 		98FBD2A0F810D14E0F4071E7 /* Pods */ = {
