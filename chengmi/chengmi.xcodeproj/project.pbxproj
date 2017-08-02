@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132173EC1F31F53A0016EE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132173EB1F31F53A0016EE97 /* main.m */; };
+		132173EF1F31F53A0016EE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132173EE1F31F53A0016EE97 /* AppDelegate.m */; };
+		132173F21F31F53A0016EE97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132173F11F31F53A0016EE97 /* ViewController.m */; };
+		132173F51F31F53A0016EE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132173F31F31F53A0016EE97 /* Main.storyboard */; };
+		132173F71F31F53A0016EE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132173F61F31F53A0016EE97 /* Assets.xcassets */; };
+		132173FA1F31F53A0016EE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132173F81F31F53A0016EE97 /* LaunchScreen.storyboard */; };
+		132174051F31F53A0016EE97 /* chengmiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132174041F31F53A0016EE97 /* chengmiTests.m */; };
+		132174101F31F53A0016EE97 /* chengmiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321740F1F31F53A0016EE97 /* chengmiUITests.m */; };
+		BB31C76ECA0441AF0FFACBA4 /* libPods-chengmi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		132174011F31F53A0016EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132173DF1F31F53A0016EE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132173E61F31F53A0016EE97;
+			remoteInfo = chengmi;
+		};
+		1321740C1F31F53A0016EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132173DF1F31F53A0016EE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132173E61F31F53A0016EE97;
+			remoteInfo = chengmi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132173E71F31F53A0016EE97 /* chengmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chengmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		132173EB1F31F53A0016EE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		132173ED1F31F53A0016EE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		132173EE1F31F53A0016EE97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		132173F01F31F53A0016EE97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		132173F11F31F53A0016EE97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		132173F41F31F53A0016EE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		132173F61F31F53A0016EE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		132173F91F31F53A0016EE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		132173FB1F31F53A0016EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132174001F31F53A0016EE97 /* chengmiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chengmiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		132174041F31F53A0016EE97 /* chengmiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chengmiTests.m; sourceTree = "<group>"; };
+		132174061F31F53A0016EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1321740B1F31F53A0016EE97 /* chengmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chengmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1321740F1F31F53A0016EE97 /* chengmiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chengmiUITests.m; sourceTree = "<group>"; };
+		132174111F31F53A0016EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A4B433573EAD241475E14F /* Pods-chengmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.debug.xcconfig"; sourceTree = "<group>"; };
+		809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chengmi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A0D8097842A258FA427F6A /* Pods-chengmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.release.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		132173E41F31F53A0016EE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB31C76ECA0441AF0FFACBA4 /* libPods-chengmi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132173FD1F31F53A0016EE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132174081F31F53A0016EE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD59CDC89F7C2D17853D442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		132173DE1F31F53A0016EE97 = {
+			isa = PBXGroup;
+			children = (
+				132173E91F31F53A0016EE97 /* chengmi */,
+				132174031F31F53A0016EE97 /* chengmiTests */,
+				1321740E1F31F53A0016EE97 /* chengmiUITests */,
+				132173E81F31F53A0016EE97 /* Products */,
+				98FBD2A0F810D14E0F4071E7 /* Pods */,
+				0CD59CDC89F7C2D17853D442 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		132173E81F31F53A0016EE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				132173E71F31F53A0016EE97 /* chengmi.app */,
+				132174001F31F53A0016EE97 /* chengmiTests.xctest */,
+				1321740B1F31F53A0016EE97 /* chengmiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		132173E91F31F53A0016EE97 /* chengmi */ = {
+			isa = PBXGroup;
+			children = (
+				132173ED1F31F53A0016EE97 /* AppDelegate.h */,
+				132173EE1F31F53A0016EE97 /* AppDelegate.m */,
+				132173F01F31F53A0016EE97 /* ViewController.h */,
+				132173F11F31F53A0016EE97 /* ViewController.m */,
+				132173F31F31F53A0016EE97 /* Main.storyboard */,
+				132173F61F31F53A0016EE97 /* Assets.xcassets */,
+				132173F81F31F53A0016EE97 /* LaunchScreen.storyboard */,
+				132173EA1F31F53A0016EE97 /* Supporting Files */,
+			);
+			path = chengmi;
+			sourceTree = "<group>";
+		};
+		132173EA1F31F53A0016EE97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				132173FB1F31F53A0016EE97 /* Info.plist */,
+				132173EB1F31F53A0016EE97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		132174031F31F53A0016EE97 /* chengmiTests */ = {
+			isa = PBXGroup;
+			children = (
+				132174041F31F53A0016EE97 /* chengmiTests.m */,
+				132174061F31F53A0016EE97 /* Info.plist */,
+			);
+			path = chengmiTests;
+			sourceTree = "<group>";
+		};
+		1321740E1F31F53A0016EE97 /* chengmiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1321740F1F31F53A0016EE97 /* chengmiUITests.m */,
+				132174111F31F53A0016EE97 /* Info.plist */,
+			);
+			path = chengmiUITests;
+			sourceTree = "<group>";
+		};
+		98FBD2A0F810D14E0F4071E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19A4B433573EAD241475E14F /* Pods-chengmi.debug.xcconfig */,
+				F2A0D8097842A258FA427F6A /* Pods-chengmi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		132173E61F31F53A0016EE97 /* chengmi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132174141F31F53A0016EE97 /* Build configuration list for PBXNativeTarget "chengmi" */;
+			buildPhases = (
+				47C4C8BC2994A77212629C92 /* [CP] Check Pods Manifest.lock */,
+				132173E31F31F53A0016EE97 /* Sources */,
+				132173E41F31F53A0016EE97 /* Frameworks */,
+				132173E51F31F53A0016EE97 /* Resources */,
+				9EBD123EE3446D7DE6501732 /* [CP] Embed Pods Frameworks */,
+				6937994200F5394AE1B94689 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chengmi;
+			productName = chengmi;
+			productReference = 132173E71F31F53A0016EE97 /* chengmi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		132173FF1F31F53A0016EE97 /* chengmiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132174171F31F53A0016EE97 /* Build configuration list for PBXNativeTarget "chengmiTests" */;
+			buildPhases = (
+				132173FC1F31F53A0016EE97 /* Sources */,
+				132173FD1F31F53A0016EE97 /* Frameworks */,
+				132173FE1F31F53A0016EE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132174021F31F53A0016EE97 /* PBXTargetDependency */,
+			);
+			name = chengmiTests;
+			productName = chengmiTests;
+			productReference = 132174001F31F53A0016EE97 /* chengmiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1321740A1F31F53A0016EE97 /* chengmiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1321741A1F31F53A0016EE97 /* Build configuration list for PBXNativeTarget "chengmiUITests" */;
+			buildPhases = (
+				132174071F31F53A0016EE97 /* Sources */,
+				132174081F31F53A0016EE97 /* Frameworks */,
+				132174091F31F53A0016EE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1321740D1F31F53A0016EE97 /* PBXTargetDependency */,
+			);
+			name = chengmiUITests;
+			productName = chengmiUITests;
+			productReference = 1321740B1F31F53A0016EE97 /* chengmiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		132173DF1F31F53A0016EE97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈宁";
+				TargetAttributes = {
+					132173E61F31F53A0016EE97 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					132173FF1F31F53A0016EE97 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 132173E61F31F53A0016EE97;
+					};
+					1321740A1F31F53A0016EE97 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 132173E61F31F53A0016EE97;
+					};
+				};
+			};
+			buildConfigurationList = 132173E21F31F53A0016EE97 /* Build configuration list for PBXProject "chengmi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 132173DE1F31F53A0016EE97;
+			productRefGroup = 132173E81F31F53A0016EE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132173E61F31F53A0016EE97 /* chengmi */,
+				132173FF1F31F53A0016EE97 /* chengmiTests */,
+				1321740A1F31F53A0016EE97 /* chengmiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132173E51F31F53A0016EE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132173FA1F31F53A0016EE97 /* LaunchScreen.storyboard in Resources */,
+				132173F71F31F53A0016EE97 /* Assets.xcassets in Resources */,
+				132173F51F31F53A0016EE97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132173FE1F31F53A0016EE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132174091F31F53A0016EE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47C4C8BC2994A77212629C92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6937994200F5394AE1B94689 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chengmi/Pods-chengmi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBD123EE3446D7DE6501732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chengmi/Pods-chengmi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132173E31F31F53A0016EE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132173F21F31F53A0016EE97 /* ViewController.m in Sources */,
+				132173EF1F31F53A0016EE97 /* AppDelegate.m in Sources */,
+				132173EC1F31F53A0016EE97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132173FC1F31F53A0016EE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132174051F31F53A0016EE97 /* chengmiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132174071F31F53A0016EE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132174101F31F53A0016EE97 /* chengmiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		132174021F31F53A0016EE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132173E61F31F53A0016EE97 /* chengmi */;
+			targetProxy = 132174011F31F53A0016EE97 /* PBXContainerItemProxy */;
+		};
+		1321740D1F31F53A0016EE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132173E61F31F53A0016EE97 /* chengmi */;
+			targetProxy = 1321740C1F31F53A0016EE97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		132173F31F31F53A0016EE97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132173F41F31F53A0016EE97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		132173F81F31F53A0016EE97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132173F91F31F53A0016EE97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		132174121F31F53A0016EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		132174131F31F53A0016EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		132174151F31F53A0016EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A4B433573EAD241475E14F /* Pods-chengmi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chengmi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piscesbody.chengmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		132174161F31F53A0016EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A0D8097842A258FA427F6A /* Pods-chengmi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chengmi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piscesbody.chengmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		132174181F31F53A0016EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chengmiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piscesbody.chengmiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chengmi.app/chengmi";
+			};
+			name = Debug;
+		};
+		132174191F31F53A0016EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chengmiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piscesbody.chengmiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chengmi.app/chengmi";
+			};
+			name = Release;
+		};
+		1321741B1F31F53A0016EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = chengmiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piscesbody.chengmiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = chengmi;
+			};
+			name = Debug;
+		};
+		1321741C1F31F53A0016EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = chengmiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piscesbody.chengmiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = chengmi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132173E21F31F53A0016EE97 /* Build configuration list for PBXProject "chengmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132174121F31F53A0016EE97 /* Debug */,
+				132174131F31F53A0016EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132174141F31F53A0016EE97 /* Build configuration list for PBXNativeTarget "chengmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132174151F31F53A0016EE97 /* Debug */,
+				132174161F31F53A0016EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132174171F31F53A0016EE97 /* Build configuration list for PBXNativeTarget "chengmiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132174181F31F53A0016EE97 /* Debug */,
+				132174191F31F53A0016EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1321741A1F31F53A0016EE97 /* Build configuration list for PBXNativeTarget "chengmiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1321741B1F31F53A0016EE97 /* Debug */,
+				1321741C1F31F53A0016EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 132173DF1F31F53A0016EE97 /* Project object */;
+}
