@@ -1,0 +1,55 @@
+//
+//  PrefixHeader.pch
+//  chengmi
+//
+//  Created by 陈宁 on 2017/8/2.
+//  Copyright © 2017年 陈宁. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+//全局的绿色主题
+#define PISColor(r, g, b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
+#define PISGolbalGreen PISColor(33, 197, 180)
+
+//抽屉顶部距离 底部一样
+#define PISScaleTopMargin 35
+//APP的高度
+#define PISAppWidth ([UIScreen mainScreen].bounds.size.width)
+//APP的宽度
+#define PISAppHeight ([UIScreen mainScreen].bounds.size.Height)
+//抽屉拉出来右边剩余比例
+#define PISZoomScaleRight 0.14
+
+//推荐cell的高度
+#define PISRnmdCellHeight 210.0
+//推荐headView的高度
+#define PISRnmdHeadViewHeight 60.0
+//背景的灰色
+#define PISBackgroundGrayColor PISColor(51, 52, 53)
+//判断系统版本号是否是iOS8以上
+#define iOS8 [[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0
+
+#pragma clang diagnostic ignored "-W#warning"
+
+#ifdef DEBUG
+
+#define PISLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define PISLog(...)
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

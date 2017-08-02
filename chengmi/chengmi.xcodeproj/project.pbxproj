@@ -52,6 +52,7 @@
 		1321740B1F31F53A0016EE97 /* chengmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chengmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1321740F1F31F53A0016EE97 /* chengmiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chengmiUITests.m; sourceTree = "<group>"; };
 		132174111F31F53A0016EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1321741D1F31F8360016EE97 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		19A4B433573EAD241475E14F /* Pods-chengmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.debug.xcconfig"; sourceTree = "<group>"; };
 		809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chengmi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A0D8097842A258FA427F6A /* Pods-chengmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.release.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 			children = (
 				132173FB1F31F53A0016EE97 /* Info.plist */,
 				132173EB1F31F53A0016EE97 /* main.m */,
+				1321741D1F31F8360016EE97 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
