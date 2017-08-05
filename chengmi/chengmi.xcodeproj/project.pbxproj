@@ -22,6 +22,9 @@
 		1321742D1F31FEC20016EE97 /* CellDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1321742C1F31FEC20016EE97 /* CellDatas.plist */; };
 		1321742F1F31FF2E0016EE97 /* infoDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1321742E1F31FF2E0016EE97 /* infoDatas.plist */; };
 		132174311F31FF990016EE97 /* HomeDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 132174301F31FF990016EE97 /* HomeDatas.plist */; };
+		132174361F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 132174351F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.m */; };
+		1321743C1F3337490016EE97 /* UIColor+PISColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321743B1F3337490016EE97 /* UIColor+PISColor.m */; };
+		1321743F1F3587BA0016EE97 /* UIImage+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321743E1F3587BA0016EE97 /* UIImage+Size.m */; };
 		BB31C76ECA0441AF0FFACBA4 /* libPods-chengmi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,12 @@
 		1321742C1F31FEC20016EE97 /* CellDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CellDatas.plist; path = Classes/CustomPlist/CellDatas.plist; sourceTree = "<group>"; };
 		1321742E1F31FF2E0016EE97 /* infoDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = infoDatas.plist; path = Classes/CustomPlist/infoDatas.plist; sourceTree = "<group>"; };
 		132174301F31FF990016EE97 /* HomeDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = HomeDatas.plist; path = Classes/CustomPlist/HomeDatas.plist; sourceTree = "<group>"; };
+		132174341F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+PISBarButtonItem.h"; path = "Classes/other/Category/UIBarButtonItem+PISBarButtonItem.h"; sourceTree = "<group>"; };
+		132174351F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+PISBarButtonItem.m"; path = "Classes/other/Category/UIBarButtonItem+PISBarButtonItem.m"; sourceTree = "<group>"; };
+		1321743A1F3337490016EE97 /* UIColor+PISColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+PISColor.h"; path = "Classes/other/Category/UIColor+PISColor.h"; sourceTree = "<group>"; };
+		1321743B1F3337490016EE97 /* UIColor+PISColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+PISColor.m"; path = "Classes/other/Category/UIColor+PISColor.m"; sourceTree = "<group>"; };
+		1321743D1F3587BA0016EE97 /* UIImage+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Size.h"; path = "Classes/other/Category/UIImage+Size.h"; sourceTree = "<group>"; };
+		1321743E1F3587BA0016EE97 /* UIImage+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Size.m"; path = "Classes/other/Category/UIImage+Size.m"; sourceTree = "<group>"; };
 		19A4B433573EAD241475E14F /* Pods-chengmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.debug.xcconfig"; sourceTree = "<group>"; };
 		809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chengmi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A0D8097842A258FA427F6A /* Pods-chengmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.release.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +181,7 @@
 		1321741E1F31FC680016EE97 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				132174401F3590180016EE97 /* Main */,
 				132174321F32006C0016EE97 /* other */,
 				1321741F1F31FC710016EE97 /* CustomPlist */,
 			);
@@ -195,11 +205,64 @@
 		132174321F32006C0016EE97 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				132174331F320A890016EE97 /* Category */,
 				132173ED1F31F53A0016EE97 /* AppDelegate.h */,
 				132173EE1F31F53A0016EE97 /* AppDelegate.m */,
 				132173EB1F31F53A0016EE97 /* main.m */,
 			);
 			name = other;
+			sourceTree = "<group>";
+		};
+		132174331F320A890016EE97 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				132174341F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.h */,
+				132174351F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.m */,
+				1321743A1F3337490016EE97 /* UIColor+PISColor.h */,
+				1321743B1F3337490016EE97 /* UIColor+PISColor.m */,
+				1321743D1F3587BA0016EE97 /* UIImage+Size.h */,
+				1321743E1F3587BA0016EE97 /* UIImage+Size.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		132174401F3590180016EE97 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				132174441F3590350016EE97 /* View */,
+				132174431F3590300016EE97 /* Model */,
+				132174421F3590270016EE97 /* Controller */,
+				132174411F35901F0016EE97 /* Tool */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		132174411F35901F0016EE97 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		132174421F3590270016EE97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		132174431F3590300016EE97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		132174441F3590350016EE97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		98FBD2A0F810D14E0F4071E7 /* Pods */ = {
@@ -404,6 +467,9 @@
 			files = (
 				132173F21F31F53A0016EE97 /* ViewController.m in Sources */,
 				132173EF1F31F53A0016EE97 /* AppDelegate.m in Sources */,
+				1321743F1F3587BA0016EE97 /* UIImage+Size.m in Sources */,
+				132174361F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.m in Sources */,
+				1321743C1F3337490016EE97 /* UIColor+PISColor.m in Sources */,
 				132173EC1F31F53A0016EE97 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

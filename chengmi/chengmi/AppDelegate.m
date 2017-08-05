@@ -21,6 +21,7 @@
     //修改控制器的tatusBar样式,需要注意在info.plist里面配置一下
     //隐藏顶部状态栏
     [application setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     return YES;
 }
 
