@@ -6,8 +6,6 @@
 //  Copyright © 2017年 陈宁. All rights reserved.
 //
 
-#ifndef PrefixHeader_pch
-#define PrefixHeader_pch
 
 #ifdef __OBJC__
 

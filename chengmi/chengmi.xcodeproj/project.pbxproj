@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		132173EC1F31F53A0016EE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132173EB1F31F53A0016EE97 /* main.m */; };
 		132173EF1F31F53A0016EE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132173EE1F31F53A0016EE97 /* AppDelegate.m */; };
-		132173F21F31F53A0016EE97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132173F11F31F53A0016EE97 /* ViewController.m */; };
 		132173F51F31F53A0016EE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132173F31F31F53A0016EE97 /* Main.storyboard */; };
 		132173F71F31F53A0016EE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132173F61F31F53A0016EE97 /* Assets.xcassets */; };
 		132173FA1F31F53A0016EE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132173F81F31F53A0016EE97 /* LaunchScreen.storyboard */; };
@@ -25,6 +24,12 @@
 		132174361F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 132174351F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.m */; };
 		1321743C1F3337490016EE97 /* UIColor+PISColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321743B1F3337490016EE97 /* UIColor+PISColor.m */; };
 		1321743F1F3587BA0016EE97 /* UIImage+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321743E1F3587BA0016EE97 /* UIImage+Size.m */; };
+		132174471F3595660016EE97 /* PISMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132174461F3595660016EE97 /* PISMainViewController.m */; };
+		132174491F36DDC40016EE97 /* PISLeftMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132174481F36DDC40016EE97 /* PISLeftMenuView.xib */; };
+		1321744C1F36DDEB0016EE97 /* PISLeftMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321744B1F36DDEB0016EE97 /* PISLeftMenuView.m */; };
+		1321744F1F36F4130016EE97 /* PISMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321744E1F36F4130016EE97 /* PISMenuButton.m */; };
+		132174521F36F45E0016EE97 /* PISCityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 132174511F36F45E0016EE97 /* PISCityButton.m */; };
+		132174551F36F5570016EE97 /* PISSelectCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 132174541F36F5570016EE97 /* PISSelectCityView.m */; };
 		BB31C76ECA0441AF0FFACBA4 /* libPods-chengmi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +55,6 @@
 		132173EB1F31F53A0016EE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		132173ED1F31F53A0016EE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		132173EE1F31F53A0016EE97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		132173F01F31F53A0016EE97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		132173F11F31F53A0016EE97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		132173F41F31F53A0016EE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		132173F61F31F53A0016EE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		132173F91F31F53A0016EE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +79,17 @@
 		1321743B1F3337490016EE97 /* UIColor+PISColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+PISColor.m"; path = "Classes/other/Category/UIColor+PISColor.m"; sourceTree = "<group>"; };
 		1321743D1F3587BA0016EE97 /* UIImage+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Size.h"; path = "Classes/other/Category/UIImage+Size.h"; sourceTree = "<group>"; };
 		1321743E1F3587BA0016EE97 /* UIImage+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Size.m"; path = "Classes/other/Category/UIImage+Size.m"; sourceTree = "<group>"; };
+		132174451F3595660016EE97 /* PISMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PISMainViewController.h; path = Classes/Main/Controller/PISMainViewController.h; sourceTree = "<group>"; };
+		132174461F3595660016EE97 /* PISMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PISMainViewController.m; path = Classes/Main/Controller/PISMainViewController.m; sourceTree = "<group>"; };
+		132174481F36DDC40016EE97 /* PISLeftMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PISLeftMenuView.xib; path = Classes/Main/View/PISLeftMenuView.xib; sourceTree = "<group>"; };
+		1321744A1F36DDEB0016EE97 /* PISLeftMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PISLeftMenuView.h; path = Classes/Main/View/PISLeftMenuView.h; sourceTree = "<group>"; };
+		1321744B1F36DDEB0016EE97 /* PISLeftMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PISLeftMenuView.m; path = Classes/Main/View/PISLeftMenuView.m; sourceTree = "<group>"; };
+		1321744D1F36F4130016EE97 /* PISMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PISMenuButton.h; path = Classes/Main/View/PISMenuButton.h; sourceTree = "<group>"; };
+		1321744E1F36F4130016EE97 /* PISMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PISMenuButton.m; path = Classes/Main/View/PISMenuButton.m; sourceTree = "<group>"; };
+		132174501F36F45D0016EE97 /* PISCityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PISCityButton.h; path = Classes/Main/View/PISCityButton.h; sourceTree = "<group>"; };
+		132174511F36F45E0016EE97 /* PISCityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PISCityButton.m; path = Classes/Main/View/PISCityButton.m; sourceTree = "<group>"; };
+		132174531F36F5570016EE97 /* PISSelectCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PISSelectCityView.h; path = Classes/Main/View/PISSelectCityView.h; sourceTree = "<group>"; };
+		132174541F36F5570016EE97 /* PISSelectCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PISSelectCityView.m; path = Classes/Main/View/PISSelectCityView.m; sourceTree = "<group>"; };
 		19A4B433573EAD241475E14F /* Pods-chengmi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.debug.xcconfig"; sourceTree = "<group>"; };
 		809C2A8F53AFFA0C42823204 /* libPods-chengmi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chengmi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A0D8097842A258FA427F6A /* Pods-chengmi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chengmi.release.xcconfig"; path = "Pods/Target Support Files/Pods-chengmi/Pods-chengmi.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,8 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				1321741E1F31FC680016EE97 /* Classes */,
-				132173F01F31F53A0016EE97 /* ViewController.h */,
-				132173F11F31F53A0016EE97 /* ViewController.m */,
 				132173F31F31F53A0016EE97 /* Main.storyboard */,
 				132173F61F31F53A0016EE97 /* Assets.xcassets */,
 				132173F81F31F53A0016EE97 /* LaunchScreen.storyboard */,
@@ -247,6 +259,8 @@
 		132174421F3590270016EE97 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				132174451F3595660016EE97 /* PISMainViewController.h */,
+				132174461F3595660016EE97 /* PISMainViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -261,6 +275,15 @@
 		132174441F3590350016EE97 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				132174481F36DDC40016EE97 /* PISLeftMenuView.xib */,
+				1321744A1F36DDEB0016EE97 /* PISLeftMenuView.h */,
+				1321744B1F36DDEB0016EE97 /* PISLeftMenuView.m */,
+				1321744D1F36F4130016EE97 /* PISMenuButton.h */,
+				1321744E1F36F4130016EE97 /* PISMenuButton.m */,
+				132174501F36F45D0016EE97 /* PISCityButton.h */,
+				132174511F36F45E0016EE97 /* PISCityButton.m */,
+				132174531F36F5570016EE97 /* PISSelectCityView.h */,
+				132174541F36F5570016EE97 /* PISSelectCityView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -391,6 +414,7 @@
 				132173F51F31F53A0016EE97 /* Main.storyboard in Resources */,
 				132174251F31FDF30016EE97 /* blurData.plist in Resources */,
 				132174211F31FCAC0016EE97 /* detailJson in Resources */,
+				132174491F36DDC40016EE97 /* PISLeftMenuView.xib in Resources */,
 				1321742D1F31FEC20016EE97 /* CellDatas.plist in Resources */,
 				132174231F31FD000016EE97 /* foundData.plist in Resources */,
 			);
@@ -465,12 +489,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				132173F21F31F53A0016EE97 /* ViewController.m in Sources */,
 				132173EF1F31F53A0016EE97 /* AppDelegate.m in Sources */,
+				132174521F36F45E0016EE97 /* PISCityButton.m in Sources */,
 				1321743F1F3587BA0016EE97 /* UIImage+Size.m in Sources */,
 				132174361F320ADF0016EE97 /* UIBarButtonItem+PISBarButtonItem.m in Sources */,
 				1321743C1F3337490016EE97 /* UIColor+PISColor.m in Sources */,
+				132174471F3595660016EE97 /* PISMainViewController.m in Sources */,
+				1321744C1F36DDEB0016EE97 /* PISLeftMenuView.m in Sources */,
 				132173EC1F31F53A0016EE97 /* main.m in Sources */,
+				132174551F36F5570016EE97 /* PISSelectCityView.m in Sources */,
+				1321744F1F36F4130016EE97 /* PISMenuButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +648,7 @@
 			baseConfigurationReference = 19A4B433573EAD241475E14F /* Pods-chengmi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/chengmi/PrefixHeader.pch";
 				INFOPLIST_FILE = chengmi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.piscesbody.chengmi;
@@ -632,6 +661,7 @@
 			baseConfigurationReference = F2A0D8097842A258FA427F6A /* Pods-chengmi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/chengmi/PrefixHeader.pch";
 				INFOPLIST_FILE = chengmi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.piscesbody.chengmi;
