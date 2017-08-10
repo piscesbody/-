@@ -7,8 +7,10 @@
 //
 
 #import "PISMainViewController.h"
+#import "PISLeftMenuView.h"
+@interface PISMainViewController ()<PISLeftMenuViewDelegate,UIGestureRecognizerDelegate>
 
-@interface PISMainViewController ()
+
 
 @end
 

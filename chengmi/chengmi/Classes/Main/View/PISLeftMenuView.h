@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+//LeftView按钮类型
 typedef NS_ENUM(NSInteger,PISleftButtonType){
     PISleftButtonTypeHome = 0,
     PISleftButtonTypeFound,

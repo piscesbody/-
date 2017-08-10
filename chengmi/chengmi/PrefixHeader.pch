@@ -13,6 +13,9 @@
 #define MAS_SHORTHAND_GLOBALS
 #import "Masonry.h"
 
+#import "UIBarButtonItem+PISBarButtonItem.h"
+#import "UIColor+PISColor.h"
+
 //全局的绿色主题
 #define PISColor(r, g, b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
 #define PISGolbalGreen PISColor(33, 197, 180)
@@ -22,7 +25,7 @@
 //APP的高度
 #define PISAppWidth ([UIScreen mainScreen].bounds.size.width)
 //APP的宽度
-#define PISAppHeight ([UIScreen mainScreen].bounds.size.Height)
+#define PISAppHeight ([UIScreen mainScreen].bounds.size.height)
 //抽屉拉出来右边剩余比例
 #define PISZoomScaleRight 0.14
 
